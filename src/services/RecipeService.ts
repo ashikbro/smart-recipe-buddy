@@ -7,6 +7,9 @@ export class RecipeService {
   private apiKey: string;
 
   constructor(apiKey: string = OPENAI_API_KEY) {
+    if (!apiKey) {
+      console.warn('WARNING: OpenAI API key is not configured. Recipe generation will fail. Please set OPENAI_API_KEY in your .env file.');
+    }
     this.apiKey = apiKey;
   }
 

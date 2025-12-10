@@ -1,5 +1,4 @@
 import * as tf from '@tensorflow/tfjs';
-import { bundleResourceIO, decodeJpeg } from '@tensorflow/tfjs-react-native';
 import * as ImagePicker from 'expo-image-picker';
 
 export class ImageRecognitionService {
