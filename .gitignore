@@ -1,0 +1,56 @@
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# React Native
+.expo/
+.expo-shared/
+dist/
+web-build/
+
+# Environment variables
+.env
+.env.local
+
+# iOS
+ios/Pods/
+ios/build/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+project.xcworkspace/
+
+# Android
+android/app/build/
+android/.gradle/
+android/build/
+android/app/release/
+*.apk
+*.aab
+
+# macOS
+.DS_Store
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build artifacts
+build/
+dist/
+*.tgz
+
+# Testing
+coverage/
+.jest/
